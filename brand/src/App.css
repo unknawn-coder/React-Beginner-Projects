@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  font-family : "poppins", sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width : 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 72px;
+  margin-bottom: 500px;
+  
+  
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  color: white;
+  height: 32px;
+  border-radius: 8px;
+  font-weight: 500;
+
+
+}
+:root{
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+*{
+  margin:0
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh -72px);
+   
+
+}
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+  border: none;
+  border-radius : 10px;
+  padding: 5px 10px 10px 10px;
+  display :flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15%;
+  background-color: white;
+  
+  color: black
+  
+
+
+}
+.sec-container{
+  margin: 0 auto;
+  max-width: 1280px;
+  border:none;;
+  border-radius : 10px;
+  padding: 5px 10px 10px 10px;
+  display :flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15%;
+  background-color: cornsilk;
+}
+.hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height:102px;
+}
+.hero p{
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+}
+.hero-btn{
+  display: flex;
+  gap:40px;
+
+}
+.secondary-btn{
+  background: transparent;
+  border: 2px solid gray;
+  color: var(--gray);
+  padding: 6px 16px;
+}
+.shopping p{
+  font-size: 14px;
+  margin-bottom: 8px;
+
+}
+.brand-icons{
+  display: flex;
+  gap: 16px;
+}
+.hero-content{
+  display:flex;
+  flex-direction: column;
+  gap:36px;
+  
+}
+.description{
+  font-family: 'Roboto', sans-serif;
+  
+}
